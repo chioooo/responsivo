@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(203, 199, 141);
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #fdeca0;
+    color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+}
+
+header .contenedor{
+    display: table;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#bienvenidos{
+    text-align: center;
+}
